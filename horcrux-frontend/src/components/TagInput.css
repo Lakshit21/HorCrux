@@ -1,0 +1,61 @@
+/* src/components/TagInput.css */
+.tag-input-container {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tag-input-container input {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+}
+
+.tag-item {
+    background-color: #757575;
+    border-radius: 30px;
+    padding: 5px 10px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.tag-item button {
+    /* background: #202120; */
+    background: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: #757575;
+    border: 0px solid;
+    border-radius: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.suggestions li {
+    padding: 8px;
+    cursor: pointer;
+    list-style-type: circle;
+}
+
+.suggestions li:hover {
+    background-color: #745570;
+    list-style-type: none;
+    border-radius: 10px;
+}

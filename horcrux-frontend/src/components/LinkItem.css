@@ -1,0 +1,97 @@
+.link-item {
+    border: 0px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    background-color: #202120;
+}
+
+.link-item:hover {
+    background-color: #747575;
+    /* border-color: #4a5152; */
+    /* border-width: 0px; */
+}
+
+.link-item h3 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.link-item h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.link-item p a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Crux Box */
+.crux-box {
+    border: 1px solid #747575;
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+/* Create Update Label */
+.create-update-label {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.delete-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.edit-button {
+    position: absolute;
+    top: 15px;
+    right: 75px;
+    background-color: #fcca03;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.edit-button:hover {
+    background-color: #755a02;
+}
+
+.visit-button {
+    position: absolute;
+    top: 15px;
+    right: 120px;
+    background-color: #4287f5;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.visit-button:hover {
+    background-color: #043a91;
+}
+
+/* Additional styles for TagInput and Navbar are in their respective CSS files */

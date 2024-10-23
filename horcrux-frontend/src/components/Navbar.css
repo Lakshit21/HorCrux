@@ -1,0 +1,24 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #757575;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 30px;
+
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Not A Good Practice*/
+}
+
+.nav-links a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    text-decoration: underline;
+}

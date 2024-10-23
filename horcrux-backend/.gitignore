@@ -1,0 +1,11 @@
+.env
+go_and_get.sh
+
+# Ignore Go binaries
+*.exe
+*.out
+*.log
+
+# Ignore IDE folders
+.idea/
+.vscode/
